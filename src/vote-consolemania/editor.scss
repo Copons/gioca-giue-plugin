@@ -1,0 +1,39 @@
+.wp-block-gioca-giue-vote-consolemania__row {
+	> :first-child {
+		width: 200px;
+	}
+	> :last-child {
+		padding: 0;
+		width: 100px;
+	}
+}
+
+.wp-block-gioca-giue-vote-consolemania__row .block-editor-rich-text__editable {
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 14px;
+}
+
+.wp-block-gioca-giue-vote-consolemania__vote.components-number-control input.components-input-control__input {
+	background-color: #2f38b1;
+	color: #ffffff;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-size: 42px;
+	height: auto;
+	padding: 0 0 0 2px;
+	width: 100%;
+}
+.wp-block-gioca-giue-vote-consolemania__details .components-base-control input.components-text-control__input {
+	background-color: #2f38b1;
+	color: #ffffff;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+	height: auto;
+	letter-spacing: 1px;
+	padding: 0 0 0 2px;
+	text-transform: uppercase;
+	width: 100%;
+	&::placeholder {
+		color: rgba(255, 255, 255, 0.3 );
+	}
+}

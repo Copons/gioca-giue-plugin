@@ -1,0 +1,29 @@
+.wp-block-gioca-giue-vote-k-mag__vote.components-number-control input.components-input-control__input {
+	background-color: #000000;
+	color: #ffcc00;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-size: 44px;
+	height: auto;
+	letter-spacing: 2px;
+	padding: 0 0 0 2px;
+}
+
+.wp-block-gioca-giue-vote-k-mag__grades span::before {
+	bottom: -100px;
+	height: 95px;
+}
+
+.wp-block-gioca-giue-vote-k-mag__bar {
+	width: 165px;
+
+	.components-number-control input.components-input-control__input {
+		background-color: #ff00cc;
+		color: #ffcc00;
+		font-family: "Arial Black", Arial, sans-serif;
+		font-size: 14px;
+		height: auto;
+		line-height: 18px;
+		min-height: 20px;
+		padding: 0 0 0 4px;
+	}
+}

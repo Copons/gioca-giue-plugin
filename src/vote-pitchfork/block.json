@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gioca-giue/vote-pitchfork",
+	"version": "0.1.0",
+	"title": "Gioca Giue - Voto Pitchfork",
+	"category": "widgets",
+	"description": "Voto in scala Pitchfork.",
+	"attributes": {
+		"voto": {
+			"type": "string",
+			"default": "0.0"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gioca-giue",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

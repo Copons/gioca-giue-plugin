@@ -1,0 +1,9 @@
+.wp-block-gioca-giue-post-authors-author {
+	&::after {
+		content: ', ';
+	}
+
+	&:last-child::after {
+		content: '';
+	}
+}

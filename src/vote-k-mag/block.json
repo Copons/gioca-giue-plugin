@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gioca-giue/vote-k-mag",
+	"version": "0.1.0",
+	"title": "Gioca Giue - Voto K Mag",
+	"category": "widgets",
+	"description": "Voto in scala K.",
+	"attributes": {
+		"grafica": {
+			"type": "string",
+			"default": "0"
+		},
+		"qi": {
+			"type": "string",
+			"default": "0"
+		},
+		"sonoro": {
+			"type": "string",
+			"default": "0"
+		},
+		"fk": {
+			"type": "string",
+			"default": "0"
+		},
+		"voto": {
+			"type": "string",
+			"default": "0"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gioca-giue",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

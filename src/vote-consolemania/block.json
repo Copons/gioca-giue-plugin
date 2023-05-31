@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gioca-giue/vote-consolemania",
+	"version": "0.1.0",
+	"title": "Gioca Giue - Voto Consolemania",
+	"category": "widgets",
+	"description": "Voto in scala Consolemania.",
+	"attributes": {
+		"piattaforma": {
+			"type": "string"
+		},
+		"grafica": {
+			"type": "string"
+		},
+		"graficaVoto": {
+			"type": "string",
+			"default": "0"
+		},
+		"sonoro": {
+			"type": "string"
+		},
+		"sonoroVoto": {
+			"type": "string",
+			"default": "0"
+		},
+		"giocabilita": {
+			"type": "string"
+		},
+		"giocabilitaVoto": {
+			"type": "string",
+			"default": "0"
+		},
+		"sviluppatore": {
+			"type": "string"
+		},
+		"voto": {
+			"type": "string",
+			"default": "0"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gioca-giue",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
